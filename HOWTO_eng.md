@@ -8,7 +8,11 @@ Go to [Tirant OOD](tirantood.uv.es) or [Vives OOD](localhost/#NYI) and log into 
 
 Once logged into the platform the MoD (Message of the Day) will appear as well as the different tabs in the upper-left corner:
 
+<<<<<<< HEAD
 _Files, Jobs, Clusters, Interactive Apps, My Interactive Sessions_
+=======
+_Files, Jobs, Clusters, Interactive Apps, My Interactive Sessions_ 
+>>>>>>> 6636e6c (Change in doc)
 
 and in the upper-right corner:
 
@@ -68,6 +72,11 @@ change **venv_name** and the python version to your needs.
 conda activate venv_name
 ```
 
+<<<<<<< HEAD
+=======
+__NOTICE__:  User MUST create a jupyter Env called **Jupyter_ood** to be able to run the Jupyter Notebooks.
+
+>>>>>>> 6636e6c (Change in doc)
  + To save the python module requirements of our environment (reproducible results):
 
 ```bash
@@ -105,6 +114,8 @@ Other useful packages are:
 To run a ___Jupyter Notebook___ go to _Interactive Apps_ $\rightarrow$ _Jupyter Notebook_ and select the _Number of cores_ and any _Extra Jupyter Args_ (see [Jupyter Docs](https://docs.jupyter.org/en/latest/use/config.html)).
 
 This will start a Jupyter Notebook server from where we will be able to run our code.
+
+__REMINDER__:  User MUST create a jupyter Env called **Jupyter_ood** to be able to run the Jupyter Notebooks.
 
 
 ## Initializing a Git Repo
